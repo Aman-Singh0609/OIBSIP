@@ -1,5 +1,4 @@
-package ATM;
-
+package atm;
 import java.util.Scanner;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -129,7 +128,7 @@ class BankAccount {
 	}
 }
 
-public class atm {
+public class ATM {
 
     public static int takeIntegerInput(int limit) {
         int input = 0;
@@ -169,7 +168,7 @@ public class atm {
 
                 if (ch == 1) {
                     if (b.login()) {
-                        System.out.println("\n\n**Welcome Back " + b.getName() + "**\n");
+                        System.out.println("\n\n*Welcome Back " + b.getName() + "*\n");
                         boolean isFinished = false;
 
                         while (!isFinished) {
